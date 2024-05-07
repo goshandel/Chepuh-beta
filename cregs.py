@@ -6,14 +6,10 @@ import requests
 LOGS = 'logs.txt'
 IAM_TOKEN_PATH = '/cregs/aim_token.txt'
 FOLDER_ID_PATH = '/cregs/folder_id.txt'
-BOT_TOKEN_PATH = '/cregs/bot_token.txt'
+
 
 logging.basicConfig(filename=LOGS, level=logging.INFO,
                     format="%(asctime)s FILE: %(filename)s IN: %(funcName)s MESSAGE: %(message)s", filemode="w")
-
-def get_bot_token():
-    with open(BOT_TOKEN_PATH, 'r') as f:
-        return f.read().strip()
 
 def get_creds():
     try:
