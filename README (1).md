@@ -23,5 +23,5 @@
 
 
 ## Ссылки на гит
-
+https://github.com/goshandel/Chepuh-beta.git
 
