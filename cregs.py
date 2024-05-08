@@ -4,8 +4,8 @@ import time
 from datetime import datetime
 import requests
 LOGS = 'logs.txt'
-IAM_TOKEN_PATH = '/cregs_new/aim_token.txt'
-FOLDER_ID_PATH = '/cregs_new/folder_id.txt'
+IAM_TOKEN_PATH = '/home/student/Chepuh-beta/cregs_new/aim_token.txt'
+FOLDER_ID_PATH = '/home/student/Chepuh-beta/cregs_new/folder_id.txt'
 
 
 logging.basicConfig(filename=LOGS, level=logging.INFO,
